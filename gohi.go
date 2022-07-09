@@ -8,7 +8,7 @@ import (
 var hiInManyLanguages []string
 
 func init() {
-	hiWords := []string{"Hi", "Hello", "안녕하세요", "こんにちわ", "你好", "Hola", "Hallo"}
+	hiWords := []string{"Hi", "Hello", "안녕하세요!", "こんにちわ", "你好", "Hola", "Hallo"}
 	hiInManyLanguages = hiWords
 	rand.Seed(time.Now().UnixNano())
 }
